@@ -5,8 +5,6 @@
 @tailwind utilities;
 
 
-
-
 *{
   margin: 0;
   padding: 0;
@@ -24,47 +22,6 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-}
-
-
-.custom-bullets {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.custom-bullets li {
-  position: relative;
-  padding-right: 25px; 
-}
-
-.custom-bullets li::before {
-  content: "•";
-  color: black;  
-  position: absolute;
-  right: 0; 
-  font-size: 40px;
-  line-height: 95px; 
-}
-
-.custom-bullets1 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.custom-bullets1 li {
-  position: relative;
-  padding-right: 25px; 
-}
-
-.custom-bullets1 li::before {
-  content: "•";
-  color: white;
-  position: absolute;
-  right: 0; 
-  font-size: 40px; 
-  line-height: 95px; 
 }
 
 p{

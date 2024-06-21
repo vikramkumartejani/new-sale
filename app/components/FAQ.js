@@ -89,7 +89,7 @@ const FAQ = () => {
                 <Image src='/assets/arrow-down.svg' alt="Icons" width={50} height={83} className='mx-auto md:mx-0' />
               </div>
               <button className='rounded-xl w-full h-[70px] md:h-[115px] font-bold text-[20px] md:text-[36px] leading-[60px] md:leading-[82px] tracking-[0.04em] text-center bg-[#FF4747] mb-2 md:mb-[40px]'>אני רוצה להתחיל!</button>
-              <Image src='/assets/cards.svg' alt="Cards" width={400} height={40} className="text-center md:max-w-[400px] mx-auto" />
+              <Image src='/assets/cards.svg' alt="Cards" width={400} height={40} className="text-center md:max-w-[400px] mx-auto py-4" />
               <p className="text-[15px] md:text-[25px] leading-[30px] md:leading-[55px] tracking-[0.01em] font-normal text-center mt-2">*ההצעה יכולה להיגמר ללא התרעה מוקדמת.</p>
               <p className='text-[20px] md:text-[30px] leading-[30px] md:leading-[55px] tracking-[0.01em] font-normal max-w-[95%] mx-auto text-center mt-4'>זו ההזדמנות שלך לקחת את כל מה שיש לבינה המלאכותית להציע לעסק שלך עוד לפני שכולם שם, ולהנות מתנופה משמעותית בתקופה קריטית להצלחה שלך.</p>
         </div>

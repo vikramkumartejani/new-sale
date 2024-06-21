@@ -49,7 +49,7 @@ const Suitable = () => {
                 <div className='flex flex-col md:flex-row items-center justify-center gap-5 md:gap-24 max-w-[95%] mx-auto my-4 md:my-[70px]'>
                     <Image src='/assets/arrow-down.svg' alt="Icons" width={50} height={83} className='mx-auto md:mx-0' />
                     <div className='bg-custom-gradient w-full md:w-[514.8px] h-[90px] md:h-[128px] rounded-[90px] flex items-center justify-center relative'>
-                        <button className='text-white font-bold text-[24px] md:text-[48px] leading-[1.2] md:leading-[95px] tracking-[0.01em] text-center mr-4 md:mr-8'>ניסיון חינם!</button>
+                        <button className='text-white font-bold text-[24px] md:text-[48px] leading-[1.2] md:leading-[95px] tracking-[0.01em] text-center mr-8'>ניסיון חינם!</button>
                         <div className='text-white flex flex-col items-center justify-center absolute right-0 border border-black h-[90px] md:h-[130px] w-[90px] md:w-[133px] rounded-full'>
                             <h2 className='text-[24px] md:text-[50px] font-semibold -mt-2 md:-mt-4'>7</h2>
                             <h4 className='text-[16px] md:text-[30px] leading-[5px] tracking-[0.01em] text-center font-bold'>ימים</h4>

@@ -110,10 +110,10 @@ const UsersConnected = () => {
                 כמה שווה לך?
             </h3>
             <ul className="flex items-end justify-end flex-col py-8 text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right">
-              <li className="flex gap-2">עוזר אישי שמכיר אותך, יודע הכל וזמין לך 24/7 לכל שאלה<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
-              <li className="flex gap-2">להכפיל פי 100 הצלחות בחיים ובעסק.. ולפנות לעצמך זמן לדברים אחרים<GoDotFill className='mt-1 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
-              <li className="flex gap-2">להפסיק לעבוד לבד או להיתלות באחרים<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
-              <li className="flex gap-2">להשתחרר מכל הפעולות שלא מעניינות אותך בעסק<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">עוזר אישי שמכיר אותך, יודע הכל וזמין לך 24/7 לכל שאלה<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">להכפיל פי 100 הצלחות בחיים ובעסק.. ולפנות לעצמך זמן לדברים אחרים<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">להפסיק לעבוד לבד או להיתלות באחרים<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">להשתחרר מכל הפעולות שלא מעניינות אותך בעסק<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
             </ul>
             <h2 className="text-[24px] md:text-[40px] leading-normal sm:leading-normal md:leading-[95px] text-black tracking-[0.01em] text-center mt-10">
                 איך אפשר בכלל לכמת את זה במחיר..

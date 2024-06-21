@@ -15,10 +15,10 @@ const Suitable = () => {
                     ?<span>למי זה</span>  <span className='text-[#E21F1F]'>לא מתאים</span>
                 </h2>
                 <ul className='text-right w-full flex flex-col items-end justify-end gap-4 md:gap-6 lg:gap-10 text-[30px] leading-[40px] md:text-[45px] md:leading-[55px] lg:text-[60px] lg:leading-[70px] tracking-[0.01em]'>
-                    <li className='flex items-start gap-2'>אנשים שמעדיפים לבזבז זמן על משימות חוזרות ומשעממות<RxCross2 className='text-[#FF0000] mt-1 md:mt-3 lg:mt-5 text-[40px] md:text-[50px]'/></li>
-                    <li className='flex items-start gap-2'>בעלי עסקים שלא מעוניינים לצמוח ולהתפתח<RxCross2 className='text-[#FF0000] mt-1 md:mt-3 lg:mt-5 text-[40px] md:text-[50px]'/></li>
-                    <li className='flex items-start gap-2'>מי שחושב שבינה מלאכותית היא רק טרנד חולף<RxCross2 className='text-[#FF0000] mt-1 md:mt-3 lg:mt-5 text-[40px] md:text-[50px]'/></li>
-                    <li className='flex items-start gap-2'>מי שמעדיף לעבוד קשה יותר במקום לעבוד חכם יותר<RxCross2 className='text-[#FF0000] mt-1 md:mt-3 lg:mt-5 text-[40px] md:text-[50px]'/></li>
+                    <li className='flex items-start gap-2'>אנשים שמעדיפים לבזבז זמן על משימות חוזרות ומשעממות<RxCross2 className='text-[#FF0000] mt-2 md:mt-2 lg:mt-3 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>בעלי עסקים שלא מעוניינים לצמוח ולהתפתח<RxCross2 className='text-[#FF0000] mt-2 md:mt-2 lg:mt-3 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>מי שחושב שבינה מלאכותית היא רק טרנד חולף<RxCross2 className='text-[#FF0000] mt-2 md:mt-2 lg:mt-3 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>מי שמעדיף לעבוד קשה יותר במקום לעבוד חכם יותר<RxCross2 className='text-[#FF0000] mt-2 md:mt-2 lg:mt-3 min-w-[25px] md:min-w-[50px]'/></li>
                 </ul>
             </div>
 

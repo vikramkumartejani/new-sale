@@ -4,7 +4,7 @@ import React from 'react'
 
 const FAQ = () => {
   return (
-    <div className='bg-black pt-[142px] pb-[75px]'>
+    <div className='bg-black pt-[142px] pb-[75px] px-4'>
         <div className='max-w-[1015px] mx-auto border-[6px] rounded-[33px] border-dashed border-[#FF5E5E] p-5 md:p-10'>
                 <h2 className='text-[40px] md:text-[60px] font-bold leading-[60px] md:leading-[95px] tracking-[0.01em] text-center text-[#FFFFFF]'>למקרה ששאלת..</h2>
                 {/* FAQ */}

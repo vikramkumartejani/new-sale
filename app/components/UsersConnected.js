@@ -109,19 +109,11 @@ const UsersConnected = () => {
             <h3 className="text-[#FF4747] text-[36px] md:text-[61px] leading-normal sm:leading-[60px] md:leading-[95px] tracking-[0.01em] font-bold text-center py-5 md:py-10">
                 כמה שווה לך?
             </h3>
-            <ul className="custom-bullets flex items-end justify-end flex-col">
-                <li className="text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right py-2 md:py-4">
-                    עוזר אישי שמכיר אותך, יודע הכל וזמין לך 24/7 לכל שאלה
-                </li>
-                <li className="text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right py-2 md:py-4">
-                    להכפיל פי 100 הצלחות בחיים ובעסק.. ולפנות לעצמך זמן לדברים אחרים
-                </li>
-                <li className="text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right py-2 md:py-4">
-                    להפסיק לעבוד לבד או להיתלות באחרים
-                </li>
-                <li className="text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right py-2 md:py-4">
-                    להשתחרר מכל הפעולות שלא מעניינות אותך בעסק
-                </li>
+            <ul className="flex items-end justify-end flex-col py-8 text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right">
+              <li className="flex gap-2">עוזר אישי שמכיר אותך, יודע הכל וזמין לך 24/7 לכל שאלה<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">להכפיל פי 100 הצלחות בחיים ובעסק.. ולפנות לעצמך זמן לדברים אחרים<GoDotFill className='mt-1 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">להפסיק לעבוד לבד או להיתלות באחרים<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2">להשתחרר מכל הפעולות שלא מעניינות אותך בעסק<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
             </ul>
             <h2 className="text-[24px] md:text-[40px] leading-normal sm:leading-normal md:leading-[95px] text-black tracking-[0.01em] text-center mt-10">
                 איך אפשר בכלל לכמת את זה במחיר..
@@ -132,12 +124,12 @@ const UsersConnected = () => {
             <div className="max-w-[1440px] mx-auto py-8 md:py-[120px]">
                 <h2 className="text-[30px] md:text-[75px] leading-[45px] md:leading-[95px] tracking-[0.01em] text-center font-bold max-w-[1279px] mx-auto">ובכל זאת.. הנה מה שעולה להשתמש בכלים שיוניצ’אט נותנת לך:</h2>
                 <ul className="flex items-end justify-end flex-col py-8 md:py-[106px] tracking-[0.01em] text-right font-normal leading-[40px] md:leading-[95px] text-[18px] md:text-[40px]">
-                    <li className='flex items-start gap-2'>ג’יפיטי 4o או ודאלי 3 - ₪79.90 (חודשי)<GoDotFill className='md:text-[50px] text-[30px] mt-1.5 md:mt-5'/></li>
-                    <li className='flex items-start gap-2'>מידג’רני - ₪79.90 (חודשי)<GoDotFill className='md:text-[50px] text-[30px] mt-1.5 md:mt-5'/></li>
-                    <li className='flex items-start gap-2'>קלוד 3 - ₪79.90 (חודשי)<GoDotFill className='md:text-[50px] text-[30px] mt-1.5 md:mt-5'/></li>
-                    <li className='flex items-start gap-2'>סטייבל דפיוז’ן + סטביליטי אי איי - ₪99.90 (חודשי)<GoDotFill className='md:text-[50px] text-[30px] mt-1.5 md:mt-5'/></li>
-                    <li className='flex items-start gap-2'>קורס התמחות במודל טקסט - ₪450 (חד פעמי)<GoDotFill className='md:text-[50px] text-[30px] mt-1.5 md:mt-5'/></li>
-                    <li className='flex items-start gap-2'>קורס התמחות במודל תמונות - ₪280 (חד פעמי)<GoDotFill className='md:text-[50px] text-[30px] mt-1.5 md:mt-5'/></li>
+                    <li className='flex items-start gap-2'>ג’יפיטי 4o או ודאלי 3 - ₪79.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>מידג’רני - ₪79.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>קלוד 3 - ₪79.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>סטייבל דפיוז’ן + סטביליטי אי איי - ₪99.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>קורס התמחות במודל טקסט - ₪450 (חד פעמי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2'>קורס התמחות במודל תמונות - ₪280 (חד פעמי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
                 </ul>
 
                 <p className="text-[14px] md:text-[30px] lg:text-[40px] leading-[30px] md:leading-[80px] lg:leading-[95px] font-bold text-right">וכל זה מבלי לדבר על פרילאנסרים, מעצבים, קופירייטרים, מנהלי משרד, יועצי שיווק, יועצים עסקיים, מנהלי מכירות, יועצי דין ועוד.. או על הזמן שחסכת מהרגע שהתחלת לעבוד עם יוניצ’אט.</p>
@@ -145,9 +137,9 @@ const UsersConnected = () => {
                 <h2 className="text-[25px] md:text-[45px] lg:text-[55px] leading-[35px] md:leading-[80px] lg:leading-[95px] text-center font-bold my-4">במקום</h2>
                 <div className="flex justify-center text-[23px] md:text-[60px] lg:text-[80px] leading-[35px] md:leading-[85px] lg:leading-[95px] font-normal text-center mt-2">
                     <h4 className='mr-2'>חד פעמי</h4>
-                    <span className="text-[35px] mt-4"> ₪ </span><del>730</del>
+                    <span className="text-[20px] md:text-[35px] md:mt-2"> ₪ </span><del>730</del>
                     <h4 className='mx-2'>+ בחודש  </h4>
-                    <span className="text-[35px] mt-4"> ₪</span><del>350</del> 
+                    <span className="text-[20px] md:text-[35px] md:mt-2"> ₪</span><del>350</del> 
                 </div>
                 <h2 className="text-[25px] md:text-[45px] lg:text-[55px] leading-[35px] md:leading-[80px] lg:leading-[95px] text-center font-bold py-2 md:py-5">רק</h2>
                 <h2 className="text-[30px] md:text-[70px] leading-[55px] md:leading-[95px] text-center mt-2"> (בחודש)<span className="text-[25px] ml-2">₪</span><span className="text-[40px] md:text-[100px]">74.90</span></h2>

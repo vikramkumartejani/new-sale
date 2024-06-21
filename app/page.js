@@ -4,6 +4,8 @@ import AboutMyself from "./components/AboutMyself";
 import Unichat from "./components/Unichat";
 import UsersConnected from "./components/UsersConnected";
 import Suitable from "./components/Suitable";
+import ForStarters from "./components/ForStarters";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <Unichat/>
       <UsersConnected/>
       <Suitable/>
+      <ForStarters/>
+      <FAQ/>
    </div>
   );
 }

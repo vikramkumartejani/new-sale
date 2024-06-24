@@ -106,7 +106,7 @@ const Unichat = () => {
                 height={242}
                 className='min-w-[100px] min-h-[100px] md:min-w-[242px] md:min-h-[242px]'
               />
-              <span className='absolute left-2 md:left-6 bottom-[-10px] text-black text-[20px] md:text-[36px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold'>
+              <span className='absolute left-3 md:left-6 bottom-0 text-black text-[20px] md:text-[36px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold'>
                 {benefit.id}
               </span>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ForStarters = () => {
   return (
-    <div className='py-[70px] md:py-[100px] lg:py-[142px] bg-[#B398EF] w-full'>
+    <div className='text-rtl py-[70px] md:py-[100px] lg:py-[142px] bg-[#B398EF] w-full'>
         <div className='max-w-[1274px] mx-auto px-4 md:px-10'>
             <div className='text-center'>
                 <h2 className='text-[30px] leading-[40px] md:text-[50px] md:leading-[70px] lg:text-[70px] lg:leading-[95px] tracking-[0.01em] font-normal mb-8 md:mb-12 lg:mb-14'>לאן יוניצ'אט יכולה לקחת אותך בעוד חודש מהיום?</h2>

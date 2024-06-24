@@ -6,16 +6,16 @@ const AboutMyself = () => {
     <div className='text-black px-4'>
       <div className='max-w-[1465px] w-full mx-auto my-[50px] md:my-[100px] flex flex-col md:flex-row items-center'>
         <div className='max-w-full md:max-w-[643px] mx-auto mb-8 md:mb-0 md:mr-8'>
-          <h2 className='text-[24px] md:text-[31px] font-bold leading-[36px] md:leading-[62px] tracking-[0.04em] text-right mb-4 md:mb-10'>
+          <h2 className='text-rtl text-[24px] md:text-[31px] font-bold leading-[36px] md:leading-[62px] tracking-[0.04em] text-right mb-4 md:mb-10'>
             אבל אולי כדאי שאגיד כמה מלים על עצמי..
           </h2>
-          <h2 className='text-[24px] md:text-[31px] font-normal leading-[36px] md:leading-[62px] tracking-[0.04em] text-right mb-4'>
+          <h2 className='text-rtl text-[24px] md:text-[31px] font-normal leading-[36px] md:leading-[62px] tracking-[0.04em] text-right mb-4'>
             שמי טל פלח, אני פריק של בינה מלאכותית וביחד עם הצוות הנפלא שלנו, הקמנו את יוניצ’אט:
           </h2>
-          <h2 className='text-[24px] md:text-[31px] font-bold leading-[36px] md:leading-[62px] tracking-[0.04em] text-right mb-4'>
+          <h2 className='text-rtl text-[24px] md:text-[31px] font-bold leading-[36px] md:leading-[62px] tracking-[0.04em] text-right mb-4'>
             מערכת שמאגדת את היכולות הבולטות ביותר של כלי בינה מלאכותית בצורה אנושית ופשוטה.
           </h2>
-          <h2 className='text-[24px] md:text-[31px] font-normal leading-[36px] md:leading-[62px] tracking-[0.04em] text-right'>
+          <h2 className='text-rtl text-[24px] md:text-[31px] font-normal leading-[36px] md:leading-[62px] tracking-[0.04em] text-right'>
             כבר למעלה מ- 150 אלף משתמשים הצליחו לייצר למעלה מ- 2.5 מליון משימות בפחות משנה!
           </h2>
         </div>
@@ -29,7 +29,7 @@ const AboutMyself = () => {
           />
         </div>
       </div>
-      <div className='max-w-full md:max-w-[995px] mx-auto text-center mb-[50px] md:mb-[110px] px-4'>
+      <div className='text-rtl max-w-full md:max-w-[995px] mx-auto text-center mb-[50px] md:mb-[110px] px-4'>
         <h2 className='text-[24px] md:text-[40px] leading-[36px] md:leading-[77px] tracking-[0.04em] font-bold mb-6 md:mb-14'>
           ואני יודע שגם העסק שלך יכול להנות מזה.
         </h2>

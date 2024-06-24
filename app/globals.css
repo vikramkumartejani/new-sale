@@ -27,3 +27,7 @@ body{
 p{
   line-height: 0.01em;
 }
+
+.text-rtl{
+  direction: rtl;
+}

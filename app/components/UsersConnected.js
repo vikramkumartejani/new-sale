@@ -74,7 +74,7 @@ const UsersConnected = () => {
     <>
         <div className="bg-black py-[150px]">
             <div>
-                <h2 className="text-white text-[36px] md:text-[75px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold text-center max-w-[1279px] mx-auto">
+                <h2 className="text-rtl text-white text-[36px] md:text-[75px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold text-center max-w-[1279px] mx-auto">
                     למעלה מ- 150 אלף משתמשים כבר התחברו למערכת.. הנה מה שכתבו לנו
                 </h2>
                 <div className="max-w-[1300px] mx-auto mt-10 md:px-28 lg:px-10 px-10">
@@ -103,19 +103,19 @@ const UsersConnected = () => {
         </div>
         
         <div className="bg-white text-black py-10 md:py-[100px] max-w-[1440px] mx-auto px-4">
-            <h2 className="text-[24px] md:text-[40px] leading-normal sm:leading-[60px] md:leading-[95px] tracking-[0.01em] text-center font-normal max-w-[900px] mx-auto">
+            <h2 className="text-rtl text-[24px] md:text-[40px] leading-normal sm:leading-[60px] md:leading-[95px] tracking-[0.01em] text-center font-normal max-w-[900px] mx-auto">
                 אם הגעת עד לכאן,כנראה שכבר הבנת כמה הבינה המלאכותית משנה את העולם,ויותר מזה.. כמה העסק שלך יכול להפיק ממנה!
             </h2>
-            <h3 className="text-[#FF4747] text-[36px] md:text-[61px] leading-normal sm:leading-[60px] md:leading-[95px] tracking-[0.01em] font-bold text-center py-5 md:py-10">
+            <h3 className="text-rtl text-[#FF4747] text-[36px] md:text-[61px] leading-normal sm:leading-[60px] md:leading-[95px] tracking-[0.01em] font-bold text-center py-5 md:py-10">
                 כמה שווה לך?
             </h3>
             <ul className="flex items-end justify-end flex-col py-8 text-[24px] leading-normal sm:leading-[60px] md:text-[40px] md:leading-[95px] tracking-[0.01em] text-right">
-              <li className="flex gap-2">עוזר אישי שמכיר אותך, יודע הכל וזמין לך 24/7 לכל שאלה<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
-              <li className="flex gap-2">להכפיל פי 100 הצלחות בחיים ובעסק.. ולפנות לעצמך זמן לדברים אחרים<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
-              <li className="flex gap-2">להפסיק לעבוד לבד או להיתלות באחרים<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
-              <li className="flex gap-2">להשתחרר מכל הפעולות שלא מעניינות אותך בעסק<GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+              <li className="flex gap-2 text-rtl" ><GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/>  עוזר אישי שמכיר אותך, יודע הכל וזמין לך 24/7 לכל שאלה</li>
+              <li className="flex gap-2 text-rtl"><GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/>  להכפיל פי 100 הצלחות בחיים ובעסק.. ולפנות לעצמך זמן לדברים אחרים</li>
+              <li className="flex gap-2 text-rtl"><GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/>  להפסיק לעבוד לבד או להיתלות באחרים</li>
+              <li className="flex gap-2 text-rtl"><GoDotFill className='mt-2 md:mt-7 min-w-[25px] md:min-w-[50px]'/>  להשתחרר מכל הפעולות שלא מעניינות אותך בעסק</li>
             </ul>
-            <h2 className="text-[24px] md:text-[40px] leading-normal sm:leading-normal md:leading-[95px] text-black tracking-[0.01em] text-center mt-10">
+            <h2 className="text-rtl text-[24px] md:text-[40px] leading-normal sm:leading-normal md:leading-[95px] text-black tracking-[0.01em] text-center mt-10">
                 איך אפשר בכלל לכמת את זה במחיר..
             </h2>
         </div>
@@ -124,7 +124,7 @@ const UsersConnected = () => {
             <div className="max-w-[1440px] mx-auto py-8 md:py-[120px]">
                 <h2 className="text-[30px] md:text-[75px] leading-[45px] md:leading-[95px] tracking-[0.01em] text-center font-bold max-w-[1279px] mx-auto">ובכל זאת.. הנה מה שעולה להשתמש בכלים שיוניצ’אט נותנת לך:</h2>
                 <ul className="flex items-end justify-end flex-col py-8 md:py-[106px] tracking-[0.01em] text-right font-normal leading-[40px] md:leading-[95px] text-[18px] md:text-[40px]">
-                    <li className='flex items-start gap-2'>ג’יפיטי 4o או ודאלי 3 - ₪79.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
+                    <li className='flex items-start gap-2 text-rtl'><GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/>  ג’יפיטי 4o או ודאלי 3 - ₪79.90 (חודשי)</li>
                     <li className='flex items-start gap-2'>מידג’רני - ₪79.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
                     <li className='flex items-start gap-2'>קלוד 3 - ₪79.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
                     <li className='flex items-start gap-2'>סטייבל דפיוז’ן + סטביליטי אי איי - ₪99.90 (חודשי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
@@ -132,20 +132,20 @@ const UsersConnected = () => {
                     <li className='flex items-start gap-2'>קורס התמחות במודל תמונות - ₪280 (חד פעמי)<GoDotFill className='mt-3 md:mt-7 min-w-[25px] md:min-w-[50px]'/></li>
                 </ul>
 
-                <p className="text-[14px] md:text-[30px] lg:text-[40px] leading-[30px] md:leading-[80px] lg:leading-[95px] font-bold text-right">וכל זה מבלי לדבר על פרילאנסרים, מעצבים, קופירייטרים, מנהלי משרד, יועצי שיווק, יועצים עסקיים, מנהלי מכירות, יועצי דין ועוד.. או על הזמן שחסכת מהרגע שהתחלת לעבוד עם יוניצ’אט.</p>
-                <p className="text-[14px] md:text-[30px] lg:text-[40px] leading-[30px] md:leading-[80px] lg:leading-[95px] font-normal text-center md:px-10 mt-2 md:mt-[105px]">חשוב לי שכל עסק בישראל ידע למנף את יכולות הבינה המלאכותית, ושיצליח להפיק ממנה את המירב בקלות. זו בדיוק הסיבה שאנחנו מציעים מנוי ללא הגבלה למערכת במחיר הזה:</p>
-                <h2 className="text-[25px] md:text-[45px] lg:text-[55px] leading-[35px] md:leading-[80px] lg:leading-[95px] text-center font-bold my-4">במקום</h2>
+                <p className="text-rtl text-[14px] md:text-[30px] lg:text-[40px] leading-[30px] md:leading-[80px] lg:leading-[95px] font-bold text-right">וכל זה מבלי לדבר על פרילאנסרים, מעצבים, קופירייטרים, מנהלי משרד, יועצי שיווק, יועצים עסקיים, מנהלי מכירות, יועצי דין ועוד.. או על הזמן שחסכת מהרגע שהתחלת לעבוד עם יוניצ’אט.</p>
+                <p className="text-rtl text-[14px] md:text-[30px] lg:text-[40px] leading-[30px] md:leading-[80px] lg:leading-[95px] font-normal text-center md:px-10 mt-2 md:mt-[105px]">חשוב לי שכל עסק בישראל ידע למנף את יכולות הבינה המלאכותית, ושיצליח להפיק ממנה את המירב בקלות. זו בדיוק הסיבה שאנחנו מציעים מנוי ללא הגבלה למערכת במחיר הזה:</p>
+                <h2 className="text-rtl text-[25px] md:text-[45px] lg:text-[55px] leading-[35px] md:leading-[80px] lg:leading-[95px] text-center font-bold my-4">במקום</h2>
                 <div className="flex justify-center text-[23px] md:text-[60px] lg:text-[80px] leading-[35px] md:leading-[85px] lg:leading-[95px] font-normal text-center mt-2">
-                    <h4 className='mr-2'>חד פעמי</h4>
-                    <span className="text-[20px] md:text-[35px] md:mt-2"> ₪ </span><del>730</del>
-                    <h4 className='mx-2'>+ בחודש  </h4>
-                    <span className="text-[20px] md:text-[35px] md:mt-2"> ₪</span><del>350</del> 
+                    <h4 className='mr-2'> חד פעמי </h4>
+                    <span className="text-[20px] md:text-[35px] md:mt-2"> ₪ </span><del> 730 </del>
+                    <h4 className='mx-2'> + בחודש  </h4>
+                    <span className="text-[20px] md:text-[35px] md:mt-2"> ₪ </span><del> 350 </del> 
                 </div>
                 <h2 className="text-[25px] md:text-[45px] lg:text-[55px] leading-[35px] md:leading-[80px] lg:leading-[95px] text-center font-bold py-2 md:py-5">רק</h2>
                 <h2 className="text-[30px] md:text-[70px] leading-[55px] md:leading-[95px] text-center mt-2"> (בחודש)<span className="text-[25px] ml-2">₪</span><span className="text-[40px] md:text-[100px]">74.90</span></h2>
             </div>
 
-            <div className='max-w-[1015px] mx-auto border-[6px] rounded-[33px] border-dashed border-[#FF5E5E] p-3 sm:p-5 md:p-10'>
+            <div className='text-rtl max-w-[1015px] mx-auto border-[6px] rounded-[33px] border-dashed border-[#FF5E5E] p-3 sm:p-5 md:p-10'>
                 <h2 className='text-[40px] md:text-[60px] font-bold leading-[60px] md:leading-[95px] tracking-[0.01em] text-center text-[#FFFFFF]'>כל מה שנשאר לך לעשות זה..</h2>
                 <p className="text-[30px] md:text-[40px] leading-[40px] md:leading-[60px] text-center font-normal mt-4 md:mt-6">ללחוץ על הכפתור, למלא את הפרטים, לאשר את התשלום, להפוך את העסק שלך למכונה משומנת ואת הראש שלך לנקי ושקט יותר מאי פעם.</p>
                 <div className='flex flex-col md:flex-row items-center justify-between max-w-[95%] gap-[30px] mx-auto my-4 md:my-[70px]'>

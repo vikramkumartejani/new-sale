@@ -84,11 +84,11 @@ const Unichat = () => {
       className='absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
     />
     <div className='pt-[150px] pb-[100px] md:pt-[200px] md:pb-[150px] text-center max-w-[1300px] mx-auto px-4'>
-      <h2 className='font-bold text-[32px] sm:text-[36px] md:text-[85px] leading-[40px] md:leading-[95px] tracking-[0.01em]'>
+      <h2 className='text-rtl font-bold text-[32px] sm:text-[36px] md:text-[85px] leading-[40px] md:leading-[95px] tracking-[0.01em]'>
         ברוכים הבאים ליוניצ’אט!
       </h2>
       <div className='flex justify-end items-end flex-col'>
-        <h2 className='mt-[20px] md:mt-[34px] text-[20px] sm:text-[24px] md:text-[40px] leading-[35px] md:leading-[60px] tracking-[0.01em] text-right border-b border-white'>
+        <h2 className='text-rtl mt-[20px] md:mt-[34px] text-[20px] sm:text-[24px] md:text-[40px] leading-[35px] md:leading-[60px] tracking-[0.01em] text-right border-b border-white'>
           אז מה בתכל’ס יוצא לך ממנוי למערכת?
         </h2>
       </div>
@@ -112,14 +112,14 @@ const Unichat = () => {
             </div>
             <div className='text-black lg:pr-[50px] md:pr-[100px]'>
               <div className='flex justify-end gap-3 mb-2'>
-                <h2 className='text-[20px] sm:text-[24px] md:text-[35px] leading-[35px] md:leading-[50px] tracking-[0.01em] font-bold text-right'>
+                <h2 className='text-rtl text-[20px] sm:text-[24px] md:text-[35px] leading-[35px] md:leading-[50px] tracking-[0.01em] font-bold text-right'>
                   {benefit.title}
                 </h2>
                 <h3 className='text-[20px] sm:text-[24px] md:text-[35px] leading-[35px] md:leading-[50px] tracking-[0.01em] font-bold text-right'>
                   .{benefit.id}
                 </h3>
               </div>
-              <p className='text-[15px] sm:text-[18px] md:text-[28px] leading-[25px] md:leading-[36px] tracking-[0.01em] text-right font-bold'>
+              <p className='text-rtl text-[15px] sm:text-[18px] md:text-[28px] leading-[25px] md:leading-[36px] tracking-[0.01em] text-right font-bold'>
                 {benefit.description}
               </p>
             </div>
@@ -127,8 +127,8 @@ const Unichat = () => {
         ))}
       </div>
       <div>
-        <h2 className='text-[36px] md:text-[85px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold my-[30px] md:my-[60px]'>
-          + בונוסים:
+        <h2 className='text-rtl text-[36px] md:text-[85px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold my-[30px] md:my-[60px]'>
+          + בונוסים :
         </h2>
         {/* Bonuses */}
         <div className='flex flex-col md:flex-row max-w-[1300px] mx-auto gap-[20px] md:gap-[34px]'>
@@ -161,10 +161,10 @@ const Unichat = () => {
           ))}
         </div>
       </div>
-      <p className='text-[18px] md:text-[40px] leading-[20px] md:leading-[42px] tracking-[0.01em] font-normal text-center mt-[30px] md:mt-[60px] max-w-[1177px] mx-auto'>
+      <p className='text-rtl text-[18px] md:text-[40px] leading-[20px] md:leading-[42px] tracking-[0.01em] font-normal text-center mt-[30px] md:mt-[60px] max-w-[1177px] mx-auto'>
         בכל יום בערך עולם הבינה המלאכותית מתעדכן, והמערכת שלנו מתעדכנת איתו. אנחנו מחויבים לאפשר לך חיבור מהיר, פשוט ויעיל לכל היכולות הבולטות של הבינה המלאכותית - במקום שהכי נח לך להשתמש בהן - בווטסאפ, באפליקציה ובאתר.
       </p>
-      <button className='sm:w-[512px] w-full min-h-[60px] md:min-h-[115px] bg-[#231154] mt-[50px] md:mt-[100px] text-[24px] md:text-[36px] leading-[40px] md:leading-[82px] tracking-[0.04em] font-bold text-center rounded-xl'>
+      <button className='text-rtl sm:w-[512px] w-full min-h-[60px] md:min-h-[115px] bg-[#231154] mt-[50px] md:mt-[100px] text-[24px] md:text-[36px] leading-[40px] md:leading-[82px] tracking-[0.04em] font-bold text-center rounded-xl'>
         אני רוצה להתחיל!
       </button>
     </div>

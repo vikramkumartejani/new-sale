@@ -7,55 +7,55 @@ const Unichat = () => {
       id: 1,
       title: 'כל מה שצריך למדיה החברתית',
       description: 'אינסטגרם, פייסבוק, טוויטר, טיקטוק ועוד.. טסקטים מדהימים בכל שפה, כולל תמונות מותאמות אישית בכל הגדלים בתוך כמה דקות',
-      imgSrc: '/assets/unichat-img.svg',
+      imgSrc: '/assets/1.gif',
     },
    {
     id: 2,
     title: 'יועץ עסקי שכבר מכיר את העסק שלך',
     description: 'יועץ עסקי שחי את העסק שלך,  שמכיר את המודלים העסקיים המתקדמים והחדשיים ביותר בעולם זמין לשרותך 24-7',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/2.gif',
    },
    {
     id: 3,
     title: 'מומחה לשיווק שחי את היעדים שלך',
     description: 'איש השיווק המושלם, שיעזור לך לבנות בנק תכנים, ילמד את המתחרים שלך ויקדם אותך במנועי חיפוש',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/3.gif',
    },
    {
     id: 4,
     title: 'מנהל המוצר המושלם',
     description: 'רוצה להוסיף מוצר חדש לעסק שלך, או לפתח מוצר קיים וצריך עזרה בקביעת המחיר, או אפיון ועיצוב המוצר? יש לך את העוזר המושלם.',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/4.gif',
    },
    {
     id: 5,
     title: 'לנתח את המתחרים שלך, ולהתעלות עליהם',
     description: 'בדיוק כמו שהמערכת יכולה ללמוד את העסק שלך, היא יכולה ללמוד את המתחרים שלך, לאפיין אותם ולבדל אותך בצורה שתביא אותך להוביל.',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/5.gif',
    },
    {
     id: 6,
     title: 'כל שירותי המשרד..',
     description: 'מהצעת מחיר, דרך הזמנת עבודה עד לניתוח חוזים וניסוח מיילים בכל השפות - יש לך את מנהלת המשרד המושלמת לצידך - לכל צורך.',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/6.gif',
    },
    {
     id: 7,
     title: 'סטודיו לעיצוב - זמין רק לך!',
     description: 'החל מלוגו ועד לבאנרים מכל הסוגים, המערכת מייצרת עבורך בהתאמה אישית עיצובים לכל צורך, תוך כמה דק.',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/7.gif',
    },
    {
     id: 8,
     title: 'מישהו שעוזר לך במכירות',
     description: 'לכתוב ולשפר תסריטי שיחה, לעבור על יעדים, למדוד הצלחה במכירות, לקבל משוב על הצלחות וכשלונות - והכל בזמן אמת.',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/8.gif',
    },
    {
     id: 9,
     title: 'ועוד אינספור אפשרויות...',
     description: 'יוניצ’אט היא מערכת שמתפתחת בכל יום כדי לענות על כל הצרכים של העסק שלך, בכל שלב של העסק בצורה אופטימלית.',
-    imgSrc: '/assets/unichat-img.svg',
+    imgSrc: '/assets/9.gif',
    },
   ];
 
@@ -64,13 +64,13 @@ const Unichat = () => {
       id: 10,
       title:'טיפים ועצות בשוטף ',
       description: 'קבוצה עם בעלי עסקים כמוך ובה עדכונים וטיפים לשימוש במערכת ובכלים.',
-      imgSrc: '/assets/unichat-img.svg',
+      imgSrc: '/assets/10.gif',
     },
     {
       id: 11,
       title:'עדכונים בלי הפסקה',
       description: 'ככל שיוצאים מודלים מתקדמים יותר, איתם משתדרגת המערכת עבורך מבלי להוסיף במחיר.',
-      imgSrc: '/assets/unichat-img.svg',
+      imgSrc: '/assets/11.gif',
     },
   ]
 
@@ -106,9 +106,7 @@ const Unichat = () => {
                 height={242}
                 className='min-w-[100px] min-h-[100px] md:min-w-[242px] md:min-h-[242px]'
               />
-              <span className='absolute left-3 md:left-6 bottom-0 text-black text-[20px] md:text-[36px] leading-[40px] md:leading-[95px] tracking-[0.01em] font-bold'>
-                {benefit.id}
-              </span>
+      
             </div>
             <div className='text-black lg:pr-[50px] md:pr-[100px]'>
               <div className='flex justify-end gap-3 mb-2'>
@@ -146,9 +144,8 @@ const Unichat = () => {
                     height={112}
                     className='min-w-[100px] min-h-[100px] md:min-w-[112px] md:min-h-[112px]'
                   />
-                  <span className='absolute left-2 bottom-[5px] text-black text-[15px] md:text-[20px] tracking-[0.01em] font-bold'>
-                    {benefitb.id}
-                  </span>
+        
+        
                 </div>
                 <h2 className='text-[24px] md:text-[35px] leading-[35px] md:leading-[50px] tracking-[0.01em] font-bold text-right text-black mt-5 md:mt-0'>
                   {benefitb.title}

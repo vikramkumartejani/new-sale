@@ -31,3 +31,7 @@ p{
 .text-rtl{
   direction: rtl;
 }
+
+.text-ltr{
+  direction: ltr;
+}
